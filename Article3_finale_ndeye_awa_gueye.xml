@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file:\\metamedia_article.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>article3ndeye awa gueye </title>
+                <author>GUEYE ndeye awa </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Université Lyon 3</publisher>
+                <ref>
+                    <!-- Date de creation du document TEI -->
+                    <date type="17-11-2024"> 17 Novembre 2024</date>
+                </ref>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <ref
+                        source="https://www.meta-media.fr/2024/06/27/influenceurs-les-nouveaux-journalistes.html
+                            "/>
+                    <!-- url de l'article -->
+                    <title>Influenceurs : les nouveaux journalistes ? <graphic
+                            url="https://www.meta-media.fr/wp-content/uploads/sites/33/2024/06/illustration-salome-saque-copy.jpg?w=600"
+                        />
+                    </title>
+                    <affiliation>Medialab de l'information de France Televisions</affiliation>
+                    <publisher>Medialab</publisher>
+                    <author>
+                        <name>
+                            <forename>Salomé</forename>
+                            <surname>Saqué</surname>
+                        </name>
+                        <affiliation> Journaliste et autrice de <name type="livre"> Sois jeune et
+                                tais toi</name></affiliation>
+                    </author>
+                    <date type="27-06-2024">27 Juin 2024</date>
+                    <!-- Date de publication de l'article -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <!-- personnes citées -->
+            <div type="liste_personnes">
+                <p>
+                    <name xml:id="CK">
+                        <forename>Camélia </forename>
+                        <surname>Kheiredine</surname>
+                    </name>
+                    <name xml:id="HT">
+                        <forename>Hugo </forename>
+                        <surname>Travers</surname>
+                        <affiliation> Youtubeur sur <name type="media">Youtube</name></affiliation>
+                    </name>
+                    <name xml:id="SQZ">
+                        <forename>Squeezie</forename>
+                        <affiliation type="occupation">Youtubeur sur <name type="media"
+                                >Youtube</name></affiliation>
+                    </name>
+                    <name xml:id="LST">
+                        <forename>Lena Situations</forename>
+                        <affiliation>Influenceuse sur <name type="média" xml:id="IG"
+                                >Instagram</name></affiliation>
+                    </name>
+                    <name xml:id="MM">
+                        <forename>Marion </forename>
+                        <surname>Mariani</surname>
+                        <affiliation> journaliste pour <name type="média"/>France
+                            Inter</affiliation>
+                    </name>
+                    <name xml:id="PCP">
+                        <forename>Paloma</forename>
+                        <surname>Clément-Picos</surname>
+                    </name>
+                    <name xml:id="HC">
+                        <forename>Hugo</forename>
+                        <surname>Clément</surname>
+                    </name>
+                </p>
+            </div>
+        </front>
+        <body>
+            <div>
+                <desc>Les médias collaborent de plus en plus avec des influenceurs en espérant
+                    toucher un public jeune : des pratiques qui agacent parmi les journalistes.
+                    Pourtant, à mesure que les réseaux sociaux prennent une place centrale dans la
+                    diffusion de l’information, certains journalistes se mettent à suivre les codes
+                    des influenceurs, au point que les frontières se brouillent entre l’influence et
+                    le journalisme.</desc>
+                <q>“J'entends que ma place puisse déranger. Je peux comprendre que je ne suis pas
+                    dans la case dans laquelle j'ai commencé ou bien celle dans laquelle certains
+                    aimeraient que je reste. Mais je ne me sens jamais autant à MA place que quand à
+                    travers le digital je peux réunir des curieux et partager des moments avec des
+                    passionnés.” <name xml:id="LST"/>
+                </q>
+                <q> “Force aux jeunes journalistes férus de cinéma qui auraient kiffé la place de
+                    Léna ! (...) pourtant les jeunes journalistes pépites ça manque pas. Dommage
+                    qu’ils n’aient pas assez de followers” <name xml:id="CK"/></q>
+            </div>
+            <div subtype="sous-partie" xml:id="par-1">
+                <head type="sous-titre">Les jeunes, détournés des médias traditionnels </head>
+                <desc>Or la plupart des jeunes ne s’informent plus via la télévision ou la radio, et
+                    encore moins par la presse écrite. Du moins, ce n’est pas leur porte d’entrée
+                    vers l’information. D’après le <num type="rang">34ᵉ </num>baromètre Kantar Public, les trois quarts des
+                    <num type="ages">18-25 ans</num> s’informent d’abord sur Internet. Près de la moitié d’entre eux
+                    s’informent même exclusivement sur les réseaux sociaux. Ils sont donc
+                    majoritairement interpellés sur ces plateformes, avant d’être éventuellement
+                    reconduits vers les sites des médias traditionnels. Dans ces circonstances, les
+                    influenceurs jouent naturellement un rôle crucial, car ce sont eux qui dominent
+                    les réseaux sociaux : ils peuvent recommander, ou non, tel ou tel événement, tel
+                    ou tel média, relayer une information en particulier et faire basculer le destin
+                    d’un article ou d’une vidéo. Le Digital News Report<date>2023</date>  du Reuters Institute,
+                    qui a interrogé près de <num type="nombre">100 000</num> jeunes à travers le monde, révèle que<num type="pourcentage">55</num>  % des
+                    utilisateurs de TikTok et de Snapchat et <num type="pourcentage">52</num> % des utilisateurs d'Instagram (des
+                    plateformes essentiellement utilisées par des jeunes) s’informent via des
+                    influenceurs. Alors que la télévision est en perte de vitesse avec une audience
+                    toujours plus âgée, les médias cherchent naturellement à adapter leur contenu et
+                    leur approche pour reconquérir cette audience jeune et dynamique. Dans ce
+                    contexte, employer des influenceurs disposant d’une audience clé en main semble
+                    être la réponse toute trouvée à cette problématique.</desc>
+
+                <figure>
+                    <graphic
+                        url="https://www.meta-media.fr/wp-content/uploads/sites/33/2024/06/capture-decran-2024-06-27-a-10-42-05.png?w=600"
+                    />
+                </figure>
+            </div>
+            <div subtype="sous-partie" xml:id="par-2">
+                <head type="sous-titre">Les influenceurs, aussi compétents que des journalistes ? </head>
+                <p>Seulement les influenceurs peuvent-ils réellement faire le travail des
+                    journalistes ? Le projet présente plusieurs limites. Premièrement, ils ne
+                    disposent pas de la formation propre aux journalistes : à savoir recouper ses
+                    sources et vérifier les faits par exemple. Ils sont rarement enquêteurs, et à
+                    plusieurs reprises, une partie d’entre eux a même diffusé de fausses
+                    informations. Cela a été particulièrement frappant pendant la pandémie. Une
+                    autre étude du Reuters Institute a prouvé que les influenceurs ont été à
+                    l’origine de <num type="pourcentage">20%</num> des publications de fausses
+                    informations à cette période. N’est pas influenceur-journaliste qui veut.
+                    Deuxièmement, ils ne se financent pas de la même manière. Là où les journalistes
+                    sont financés par des rédactions censées leur garantir une certaine
+                    indépendance, le métier des influenceurs consiste à être payé par des marques
+                    dont ils font la promotion. C’est cet aspect là de la polémique autour de <name
+                        xml:id="LST">Léna Situations</name> que la journaliste culture <name>Paloma
+                        Clément-Picos</name> déplorait en <date>janvier 2024</date>. Pour elle, le
+                    problème avec cette séquence réside dans le fait qu’elle côtoie des journalistes
+                    en s’adonnant à un exercice similaire :<q>« Le problème des équipes marketing,
+                        c'est de mettre tout le monde dans le même panier, à savoir : les
+                        journalistes payés par des rédactions et des influenceurs qui sont souvent
+                        payés par les studios pour faire du contenu »</q> explique-t-elle au micro
+                    de <name type="média">Mouv</name>. Alors bonne ou mauvaise initiative, la
+                    question divise jusque dans les rangs de la profession. La journaliste pour
+                    France Inter <name>Marion Mariani</name>, est elle plus indulgente avec la
+                    présence de l’influenceuse : <q>“on ne demande pas à Léna son expertise dans le
+                        cinéma, mais d’animer un tapis rouge avec sa personnalité et sa fraîcheur.
+                        D’ailleurs le live de <name type="média">Canal +</name>, sur la chaîne,
+                        était assuré par les journalistes habituels qui sont des spécialistes
+                        cinéma. Il y en a donc pour tout le monde !”</q></p>
+                <p> Ils sont rarement enquêteurs, et à plusieurs reprises, une partie d’entre eux a
+                    même diffusé de fausses informations</p>
+            </div>
+            <div subtype="sous-partie" xml:id="par-3">
+                <head subtype="sous-titre">Quand les journalistes deviennent des influenceurs
+                    ?</head>
+                <desc> l’indignation est moins importante concernant les journalistes qui deviennent
+                    eux-mêmes des influenceurs <name type="personne">Hugo Clément</name>.</desc>
+                <p><num>2,5 millions</num> d’abonnés tous réseaux sociaux confondus (Instagram, X,
+                    et Tik-Tok) en font le journaliste le plus suivi de France.</p>
+
+                <figure>
+                    <graphic url="https://x.com/canalplus/status/1761112688665522245"/>
+                </figure>
+                <p>
+                    <name type="personne">Samuel Etienne</name>, fier d’une longue carrière dans
+                    l’audiovisuel français, s’est mis sur le tard à l’influence </p>
+                <p>De plus en plus de jeunes journalistes s’expriment en leur nom propre sur les
+                    réseaux et y créent un contenu unique </p>
+            </div>
+            <div subtype="sous-partie" xml:id="par-4">
+                <head subtype="sous-titre"><name type="média">Hugo Décrypte</name>, modèle hybride </head>
+                <desc> Il touche plus que n’importe qui les <num type="age">15-34</num> ans avec un
+                    contenu informationnel et son influence ne cesse de grandir </desc>
+
+                <p><name xml:id="HC">Hugo Clément </name> est le journaliste issu des médias
+                    traditionnels le plus suivi de <name type="pays">France</name>, il est devancé,
+                    et de loin, par son homonyme <name type="personne" xml:id="HT">Hugo
+                        Travers</name> (Hugo Décrypte sur les réseaux sociaux), qui semble incarner
+                    le parachèvement de cette hybridation. Il représente littéralement la figure du
+                    journaliste influenceur. S’il expliquait récemment se sentir plus “youtubeur”
+                    que journaliste (bien que son audience soit désormais plus importante sur <name
+                        type="média">TikTok</name> ou <name type="média">Instagram</name> que sur ce
+                    pure player) il s’adonne indéniablement à une activité journalistique
+                    (décryptage, reportages, vérification des sources…). <name type="media"
+                        xml:id="HT"> Hugo Travers (Hugo Décrypte</name> sur les réseaux sociaux),
+                    qui semble incarner le parachèvement de cette hybridation. Il représente
+                    littéralement la figure du journaliste influenceur. S’il expliquait récemment se
+                    sentir plus “youtubeur” que journaliste (bien que son audience soit désormais
+                    plus importante sur TikTok ou Instagram que sur ce pure player) il s’adonne
+                    indéniablement à une activité journalistique (décryptage, reportages,
+                    vérification des sources…). Le créateur de <num type="ages">27</num> ans a interviewé lors des
+                    dernières campagnes électorales l’intégralité des candidats -qui ne peuvent plus
+                    se passer de sa visibilité-, a reçu à deux reprises le président de la
+                    République, et interviewé des grands noms du cinéma contemporain tels que <name
+                        type="personne">Zendaya</name> ou <name type="personne">Timothée
+                        Chalamet</name>, en passant par le milliardaire <name type="personne">Bill
+                        Gates</name> ou encore le président ukrainien en pleine guerre avec la
+                    Russie. Bref, il est devenu incontournable, et s’assume en influenceur. Il est
+                    d’ailleurs ami avec des rois de l’influence tels que <name type="personne">Seb
+                        La Frite</name>, <name type="personne">Léna Situations</name> ou encore
+                        <name type="personne">Squeezie</name>. Il apparaît régulièrement dans leurs
+                    vidéos de vacances, et obtient des entretiens avec eux auxquels aucun autre
+                    journaliste ne pourrait prétendre </p>
+                <p> Cerise sur le gâteau du mélange entre influence et journalisme, il a récemment
+                    créé une plateforme de mise en relation entre candidats et recruteurs. Financée
+                    par les entreprises qui doivent payer pour bénéficier de sa visibilité </p>
+                <p>Alors que l’on apprécie ou non cette nouvelle approche médiatique et ces
+                    nouvelles figures du journalisme-influence, force est de constater qu’ils
+                    parlent aux plus jeunes, là où les médias traditionnels échouent en grande
+                    partie. Nombreux sont ceux qui, dans les médias, voient en ces influenceurs (de
+                    divertissement ou non) un chemin pour délivrer du contenu journalistique aux
+                    plus jeunes, à l’image d’<name type="personne">Elise Lucet</name>. Cette
+                    journaliste de renom donne depuis quelques temps des entretiens à des
+                    influenceurs ultra puissants, à l’instar de <name type="personne">Léna
+                        Situations</name> ou <name type="personne">Mac Fly</name> et<name
+                        type="personne">Carlito</name> . Au vu de son nombre croissant d’abonnés sur
+                    les réseaux sociaux, c’est à se demander si la papesse du journalisme
+                    d’investigation télévisé ne devient pas elle-même une“journaliste
+                    influenceuse”> . Ce qui amène à se demander si un influenceur n’est pas surtout
+                    quelqu’un qui a de l’influence. Influence qu’il peut acquérir via des contenus
+                    commerciaux, divertissants, mais aussi journalistiques.<name type="personne"
+                        >Elise Lucet</name>
+                </p>
+
+                <desc>Au fond, la question n’est pas vraiment de savoir si certains influenceurs
+                    peuvent faire un travail de journaliste puisque l’on a vu que oui. L’objectif
+                    est plutôt de savoir : comment faire pour que les journalistes (re)trouvent de
+                    l’influence ? </desc>
+                <figure>
+                    <graphic
+                        url="https://www.meta-media.fr/wp-content/uploads/sites/33/2024/06/capture-decran-2024-06-27-a-10-47-10.png?w=600"
+                    />
+                </figure>
+            </div>
+        </body>
+    </text>
+</TEI>
