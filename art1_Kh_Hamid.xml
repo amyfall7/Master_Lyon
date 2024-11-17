@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file:\\metamedia_article.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Édition d'article "Les nouvelles start-ups de l'info : le futur du
+                    journalisme" en TEI</title>
+                <author>Khadija Hamid</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Université Jean Moulin Lyon 3</publisher>
+                <date type="17-11-2024">17 Novembre 2024</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <ref source="https://www.meta-media.fr/2024/09/11/les-nouvelles-start-ups-de-linfo-le-futur-du-journalisme.html"/>
+                    <title>Les nouvelles start-ups de l'info : le futur du journalisme</title>
+                    <author>Alexandra Klinnik</author>
+                    <affiliation type="journaliste">MediaLab de l’information de France
+                        Télévisions</affiliation>
+                    <publisher>Meta-Media</publisher>
+                    <date type="16-09-2024">11 septembre 2024</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="introduction">
+                <head>Les nouvelles start-ups de l'info : le futur du journalisme ?</head>
+                <p>Des rescapés des grands groupes aux jeunes loups de la start-up nation, une
+                    nouvelle vague de médias bouleverse le paysage journalistique. En quête
+                    d'impact, ces entrepreneurs de l'info expérimentent de nouveaux modèles
+                    économiques et éditoriaux pour s'adapter aux exigences d'une audience en
+                    mutation.</p>
+                <figure>
+                    <graphic url="https://example.com/startups.jpg"/>
+                    <desc>Illustration des nouveaux médias numériques.</desc>
+                </figure>
+            </div>
+            <div type="keywords">
+                <head>Mots-clés</head>
+                <list>
+                    <item>start-ups</item>
+                    <item>journalisme</item>
+                    <item>médias</item>
+                    <item>économie numérique</item>
+                    <item>intégrité éditoriale</item>
+                    <item>créateurs de contenu</item>
+                    <item>réseaux sociaux</item>
+                    <item>entrepreneuriat</item>
+                </list>
+            </div>
+        </front>
+        <body>
+            <div type="section" xml:id="section1">
+                <head>Les start-uppeurs de l'info</head>
+                <p>Imprégnés de la culture « start-up », ces jeunes entrepreneurs redéfinissent
+                    l’information comme un produit à valeur commerciale. Le Crayon, par exemple,
+                    illustre cette philosophie en combinant débat d'idées et stratégies marketing.
+                    Wallerand Moullé-Berteaux explique : </p>
+                <quote>« Un média est une audience ou une communauté qui se retrouve dans une
+                    proposition de contenu. »</quote>
+                <figure>
+                    <graphic
+                        url="https://tse1.mm.bing.net/th?id=OIP.ZfgfJ8NLTneKK2Ef0WtpxwHaGk&amp;pid=Api"/>
+                    <desc>Illustration pour la section: Les start-uppeurs de l'info</desc>
+                </figure>
+            </div>
+            <div type="section" xml:id="section2">
+                <head>Le brand content, une source de revenus</head>
+                <p>Le Crayon et HugoDécrypte adoptent le brand content comme pilier économique. Ce
+                    modèle, inspiré par des plateformes comme Brut, combine informations et
+                    partenariats commerciaux. Cependant, cette proximité entre contenu informatif et
+                    publicitaire pose des défis pour maintenir la transparence envers le public.</p>
+                <quote>« La prochaine ère du marketing sera celle des médias », déclarent ces
+                    entrepreneurs.</quote>
+                <figure>
+                    <graphic
+                        url="https://tse3.mm.bing.net/th?id=OIP.oqPwKpSPhrjYwAP3qi8HqQHaJh&amp;pid=Api"/>
+                    <desc>Illustration pour la section: Le brand content, une source de
+                        revenus</desc>
+                </figure>
+            </div>
+            <div type="section" xml:id="section3">
+                <head>Des médias indépendants en quête d'intégrité</head>
+                <p>Les médias indépendants, tels que Blast et Fracas, adoptent des modèles hybrides
+                    pour préserver leur indépendance éditoriale. En s’appuyant sur des financements
+                    participatifs, ils tentent de s’affranchir des pressions économiques tout en
+                    maintenant une qualité éditoriale élevée.</p>
+                <quote>« Nous devons innover sans sacrifier l'intégrité de l'information », explique
+                    un créateur de média.</quote>
+                <figure>
+                    <graphic
+                        url="https://tse1.mm.bing.net/th?id=OIP.4i7-axjKqY6tzLdcY8OxcgHaFI&amp;pid=Api"/>
+                    <desc>Illustration pour la section: Des médias indépendants en quête
+                        d'intégrité</desc>
+                </figure>
+            </div>
+            <div type="section" xml:id="section4">
+                <head>L’avenir des nouveaux médias</head>
+                <p>Alors que les plateformes numériques dominent, les médias traditionnels
+                    s'inspirent des créateurs de contenu pour attirer un public jeune. Hugo Travers
+                    anticipe une spécialisation accrue dans les années à venir : </p>
+                <quote>« Les créateurs se concentreront sur des niches spécifiques pour répondre aux
+                    attentes de leurs audiences. »</quote>
+                <figure>
+                    <graphic
+                        url="https://tse1.mm.bing.net/th?id=OIP.oqPwKpSPhrjYwAP3qi8HqQHaJh&amp;pid=Api"/>
+                    <desc>Illustration pour la section: L’avenir des nouveaux médias</desc>
+                </figure>
+            </div>
+            <div type="acteurs">
+                <p xml:id="WMB">
+                    <name>
+                        <forename>Wallerand</forename>
+                        <surname>Moullé-Berteaux</surname>
+                    </name>
+                    <affiliation>Co-fondateur du Crayon</affiliation>
+                </p>
+                <p xml:id="HT">
+                    <name>
+                        <forename>Hugo</forename>
+                        <surname>Travers</surname>
+                    </name>
+                    <affiliation>Fondateur de HugoDécrypte</affiliation>
+                </p>
+                <p xml:id="AM">
+                    <name>
+                        <forename>Antonin</forename>
+                        <surname>Marin</surname>
+                    </name>
+                    <affiliation>Co-fondateur du Crayon</affiliation>
+                </p>
+                <p xml:id="SMB">
+                    <name>
+                        <forename>Sixtine</forename>
+                        <surname>Moullé-Berteaux</surname>
+                    </name>
+                    <affiliation>Co-fondatrice du Crayon</affiliation>
+                </p>
+                <p xml:id="JL">
+                    <name>
+                        <forename>Jules</forename>
+                        <surname>Stimpfling</surname>
+                    </name>
+                    <affiliation>Expert en sécurité internationale</affiliation>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>
