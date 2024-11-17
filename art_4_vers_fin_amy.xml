@@ -25,7 +25,10 @@
                     </title>
                     <affiliation>Medialab de l'information de France Televisions</affiliation>
                     <publisher>Medialab</publisher>
-                    <author/>
+                    <author>
+                        <name>Aude Nevo</name>
+                    <affiliation>Journaliste à <name type="media">France Televisions</name></affiliation>
+                    </author>
                     <date type="14-06-2024">14 Juin 2024</date>
                     <!-- Date de publication de l'article -->
                 </bibl>
@@ -33,7 +36,7 @@
         </fileDesc>
     </teiHeader>
     <text>
-        
+
         <body>
             <!-- personnes citées -->
             <div>
@@ -131,8 +134,8 @@
                         des Armées, a confirmé ces activités dans son rapport du <date>10
                             juin</date>. Ce document révèle que de nombreux faux articles, imitant
                         des publications de médias tels que <name type="media">Le Parisien</name>,
-                            <name type="media">Le Point</name>, et <name type="media" xml:id="LME">Le
-                            Monde</name> ont été diffusés sur les réseaux sociaux. Ces articles,
+                            <name type="media">Le Point</name>, et <name type="media" xml:id="LME"
+                            >Le Monde</name> ont été diffusés sur les réseaux sociaux. Ces articles,
                         largement relayés par des bots, visaient à saturer les capacités des
                         cellules de fact-checking « tout en promouvant des contenus servant les
                         intérêts russes ». Il est possible de détecter ces faux articles en
@@ -195,9 +198,11 @@
                         quelques temps déjà. Ils proposent désormais plus de formats attrayants et
                         explicatifs sur les réseaux sociaux pour susciter l’intérêt.</desc>
                     <!-- description -->
-                    <p> <name type="media" xml:id="LME">Le Monde</name> utilise régulièrement son compte <name xml:id="IG">Instagram</name> pour diffuser des vidéos
-                        courtes et explicatives, présentées verticalement, dans un effort
-                        pédagogique efficace. </p>
+                    <p>
+                        <name type="media" xml:id="LME">Le Monde</name> utilise régulièrement son
+                        compte <name xml:id="IG">Instagram</name> pour diffuser des vidéos courtes
+                        et explicatives, présentées verticalement, dans un effort pédagogique
+                        efficace. </p>
                     <figure>
                         <graphic url="https://www.instagram.com/p/C8CyQxLKgSP/"/>
                     </figure>
